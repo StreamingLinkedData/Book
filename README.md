@@ -2,6 +2,14 @@
 
 This repository contains the examples and exercises for Streaming Linked Data book.
 
+The following code examples can be found:
+- Chapter 3: the [CSprite Example](../main/src/main/java/rsp4j/wspbook/chapter3/CSpriteExample.java)
+- Chapter 6:
+  - The [Location Detection exercise](../src/main/java/rsp4j/wspbook/locationscenario). More info about this exercises can be found below.
+  - The [DBPedia Live exercise](../src/main/java/rsp4j/wspbook/wildstreams/ProcessingDBPediaLive.java)
+  - The [Wikimedia exercise](../src/main/java/rsp4j/wspbook/wildstreams/ProcessingWikimedia.java)
+  - The [GDELT exercise](../src/main/java/rsp4j/wspbook/wildstreams/ProcessingGDELT.java)
+
 ## Location Detection Example
 
 We will use a covid scenario consisting of two room (BlueRoom and RedRoom) and 4 types of streams:
@@ -25,18 +33,18 @@ During the examples and exercises, we will look at solving the following queries
 
 To get started clone this repository:
 ```
-git clone https://github.com/pbonte/WSP-TheWebConf2022Tutorial
+git clone https://github.com/StreamingLinkedData/Book
 ```
 
-Move to the rsp4j-bigdata2021 folder and compile through maven:
+Move to the Book folder and compile through maven:
 ```
-cd exercises/part2/rsp4j-thewebconf2022/
+cd Book/
 mvn clean install -DskipTests
 ```
 
 Open the project with your favorate IDE, e.g. IntelliJ or Eclipse.
 
-You can find the examples in the folder `src/main/java/org/streamreasoning/rsp4j/thewebconf2022/processing/examples/` and the assignments in `src/main/java/org/streamreasoning/rsp4j/thewebconf2022/processing/assignments/`.
+You can find the examples in the folder `src/main/java/rsp4j/wspbook/`.
 
 # RSP4J
 
